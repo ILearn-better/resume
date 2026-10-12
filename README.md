@@ -2,15 +2,26 @@
 
 纯静态站点，无需构建步骤。中英双语一键切换，包含 4 个岗位方向的定制版本。
 
+**线上地址：<https://ilearn-better.github.io/resume/>**
+**仓库地址：<https://github.com/ILearn-better/resume>**
+
 ## 页面结构
 
 | 文件 | 说明 | 在线地址 |
 |---|---|---|
-| `index.html` | 首页：4 个版本导航 + 教育/荣誉概览 | `https://<用户名>.github.io/resume/` |
-| `python.html` | Python 后端 / 应用开发工程师 | `.../resume/python.html` |
-| `quant.html` | 量化开发工程师（Python） | `.../resume/quant.html` |
-| `ai.html` | AI 算法 / 机器学习工程师 | `.../resume/ai.html` |
-| `teacher.html` | 数学教师（中英双语） | `.../resume/teacher.html` |
+| `index.html` | 首页：4 个版本导航 + 教育/荣誉概览 | <https://ilearn-better.github.io/resume/> |
+| `python.html` | Python 后端 / 应用开发工程师 | <https://ilearn-better.github.io/resume/python.html> |
+| `quant.html` | 量化开发工程师（Python） | <https://ilearn-better.github.io/resume/quant.html> |
+| `ai.html` | AI 算法 / 机器学习工程师 | <https://ilearn-better.github.io/resume/ai.html> |
+| `teacher.html` | 数学教师（中英双语） | <https://ilearn-better.github.io/resume/teacher.html> |
+
+英文版链接：在任意地址后加 `?lang=en`，例如 <https://ilearn-better.github.io/resume/teacher.html?lang=en>。
+
+## 部署状态
+
+- 仓库：`ILearn-better/resume`（Public）
+- Pages 源：`main` 分支根目录
+- 更新方式：本地改完 `git add -A && git commit -m "..." && git push`，约 1 分钟后自动生效。
 
 ## 功能
 
