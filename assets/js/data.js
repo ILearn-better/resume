@@ -173,14 +173,16 @@ const ROLES = {
     nav:   { zh: '数学教师', en: 'Math Teacher' },
     title: { zh: '数学教师（中英双语）', en: 'Bilingual Mathematics Teacher (CN / EN)' },
     tagline: {
-      zh: '3 年 K12 数学 / 英语双线教学 · 学员续费率 90% · 适配 IGCSE / A-Level 衔接',
-      en: '3 years of K12 mathematics & English teaching · 90% renewal rate · IGCSE / A-Level transition ready'
+      zh: '3 年 K12 数学 / 英语双线教学 · 现任 51Talk DSE 数学老师 · 学员续费率 90% · 适配 IGCSE / A-Level / DSE 衔接',
+      en: '3 years of K12 mathematics & English teaching · Currently DSE Mathematics Teacher at 51Talk · 90% renewal rate · IGCSE / A-Level / DSE ready'
     },
     summary: {
-      zh: '信息与计算科学专业本科出身，数理基础扎实，拥有 3 年 K12 数学、英语双线教学经验，可胜任中英双语国际数学课程讲授，适配 IGCSE、A-Level 等国际课程的入门衔接与同步巩固。擅长以中文拆解核心数学逻辑、同步渗透英文专业术语与题干表达，帮助学生平稳过渡国际课程体系，兼顾知识掌握与英文读题能力提升。个性化教学经验丰富，学员提分效果显著、续费率达 90%；具备数学建模竞赛背景，可双语指导学生数学探究项目与拓展学习，注重培养学生的逻辑思维与问题解决能力。',
-      en: 'B.Sc. in Information and Computing Science with a rigorous mathematical foundation and 3 years of K12 teaching experience across both mathematics and English; qualified to deliver Chinese-English bilingual instruction for international mathematics curricula such as IGCSE and A-Level, covering introductory transition and synchronous consolidation. Skilled at unpacking core mathematical logic in Chinese while weaving in English academic terminology and question framing, helping students move smoothly into international curricula while building both subject knowledge and English reading proficiency. Experienced in personalised teaching with strong score gains and a 90% renewal rate; with a mathematical-modeling competition background, able to guide students bilingually through mathematical inquiry projects and enrichment work, focusing on logical thinking and problem solving.'
+      zh: '信息与计算科学专业本科出身，数理基础扎实，拥有 3 年 K12 数学、英语双线教学经验，现任 51Talk DSE 数学老师。可胜任中英双语国际数学课程讲授，适配 DSE、IGCSE、A-Level 等课程的入门衔接与同步巩固。擅长以中文拆解核心数学逻辑、同步渗透英文专业术语与题干表达，帮助学生平稳过渡国际课程体系，兼顾知识掌握与英文读题能力提升。个性化教学经验丰富，学员提分效果显著、续费率达 90%；具备数学建模竞赛背景，可双语指导学生数学探究项目与拓展学习，注重培养学生的逻辑思维与问题解决能力。',
+      en: 'B.Sc. in Information and Computing Science with a rigorous mathematical foundation and 3 years of K12 teaching experience across both mathematics and English; currently DSE Mathematics Teacher at 51Talk. Qualified to deliver Chinese-English bilingual instruction for international mathematics curricula such as DSE, IGCSE and A-Level, covering introductory transition and synchronous consolidation. Skilled at unpacking core mathematical logic in Chinese while weaving in English academic terminology and question framing, helping students move smoothly into international curricula while building both subject knowledge and English reading proficiency. Experienced in personalised teaching with strong score gains and a 90% renewal rate; with a mathematical-modeling competition background, able to guide students bilingually through mathematical inquiry projects and enrichment work, focusing on logical thinking and problem solving.'
     },
     highlights: [
+      { zh: '现任 51Talk DSE 数学老师：围绕 DSE 考纲开展线上双语授课，衔接内地数学体系与 DSE 考点、评分标准差异',
+        en: 'Currently DSE Mathematics Teacher at 51Talk: online bilingual instruction built around the DSE syllabus, bridging mainland mathematics and DSE requirements and marking standards' },
       { zh: '提分成果：初中数学 70+ → 中考 90 分；高二数学 60+ → 90 分并长期稳定 70 分以上；初中英语 70+ → 中考 90 分',
         en: 'Measurable gains: junior-high maths 70+ → 90 in the entrance exam; Grade-11 maths 60+ → 90 and steady above 70; junior-high English 70+ → 90 in the entrance exam' },
       { zh: '带教规模：同期稳定带教 15 名一对一学员，峰值 17 人，学员整体续费率 90%',
@@ -190,7 +192,7 @@ const ROLES = {
       { zh: '竞赛背景：全国大学生数学建模竞赛广东赛区一等奖，可双语指导学生数学探究与拓展学习',
         en: 'Competition background: First Prize in the Guangdong Division of the National College Student Mathematical Modeling Contest; able to mentor inquiry and enrichment work bilingually' }
     ],
-    expIds: ['jinxueyou', 'sikaole', 'taoli'],
+    expIds: ['talk51', 'jinxueyou', 'sikaole'],
     projIds: [],
     skillKeys: ['cert', 'teach', 'tools']
   }
@@ -263,23 +265,25 @@ const EXPERIENCE = {
     }
   },
 
-  taoli: {
-    company: { zh: '深圳桃李未来教育集团有限公司', en: 'Shenzhen Taoli Future Education Group Co., Ltd.' },
-    role:    { zh: '初中数学教师', en: 'Junior High School Mathematics Teacher' },
-    period:  { zh: '2024.07 – 2024.12', en: 'Jul 2024 – Dec 2024' },
-    tags:    ['初中数学', '教学计划', '课后辅导'],
+  talk51: {
+    company: { zh: '51Talk', en: '51Talk' },
+    role:    { zh: 'DSE 数学老师（线上 · 中英双语）', en: 'DSE Mathematics Teacher (Online, Bilingual CN/EN)' },
+    period:  { zh: '2026.08 – 至今', en: 'Aug 2026 – Present' },
+    tags:    ['DSE 数学', '香港中学文凭考试', '线上教学', '双语授课', '真题精讲'],
     points: {
       zh: [
-        '根据教学大纲和学生实际情况制定详细的教学计划。',
-        '以清晰、准确的方式讲解数学知识。',
-        '组织课堂互动，引导学生积极参与课堂讨论，关注学生的课堂表现，及时发现学生的困惑和问题。',
-        '批改作业并及时反馈，对学习有困难的学生进行个别辅导。'
+        '负责香港 DSE 数学线上授课（香港中学文凭考试），覆盖知识点精讲、历年真题拆解与答题技巧训练，帮助学生适应 DSE 评分标准与答题规范。',
+        '结合内地数学知识体系与 DSE 考纲的差异进行衔接教学，帮助学生完成从内地课程到 DSE 体系的平稳过渡。',
+        '根据学生基础与目标分数制定个性化提分方案，完成课前备课、课中互动、课后作业批改与答疑的全流程跟进。',
+        '以中文拆解数学逻辑、同步渗透英文专业术语与题干表达，兼顾知识掌握与英文读题能力提升。',
+        '定期输出学情反馈与阶段测评报告，与家长保持沟通，跟进学习进度与课程续报安排。'
       ],
       en: [
-        'Formulated detailed teaching plans based on the syllabus and each student\u2019s actual level.',
-        'Explained mathematical knowledge in a clear and accurate manner.',
-        'Organised classroom interaction, guided students into active discussion, monitored performance and identified confusion promptly.',
-        'Graded assignments with timely feedback and provided individual tutoring for students who struggled.'
+        'Deliver online DSE mathematics instruction (Hong Kong Diploma of Secondary Education), covering concept walkthroughs, past-paper analysis and answering-technique drills to help students meet DSE marking standards and answer conventions.',
+        'Bridge the gap between the mainland mathematics curriculum and the DSE syllabus through transition teaching, helping students move smoothly from mainland courses into the DSE system.',
+        'Design personalised score-improvement plans based on each student\u2019s level and target grade, owning the full cycle of pre-class preparation, in-class interaction, homework marking and Q&A follow-up.',
+        'Unpack mathematical logic in Chinese while weaving in English terminology and question framing, balancing subject mastery with English reading proficiency.',
+        'Produce periodic learning feedback and progress reports, keep parents informed, and follow up on study progress and course renewals.'
       ]
     }
   },
@@ -448,8 +452,8 @@ const SKILL_GROUPS = {
   teach: {
     name: { zh: '教学能力', en: 'Teaching Skills' },
     items: {
-      zh: ['双语教案设计、课件开发', '学情诊断与分层教学', '试卷分析与一对一培优补差', '国际课程（IGCSE / A-Level）入门衔接与同步巩固', '数学探究项目与竞赛指导'],
-      en: ['Bilingual lesson planning and courseware design', 'Learning-needs diagnosis and differentiated instruction', 'Exam-paper analysis and 1-on-1 remediation / enrichment', 'IGCSE / A-Level transition and synchronous consolidation', 'Guiding mathematical inquiry projects and competitions']
+      zh: ['双语教案设计、课件开发', '学情诊断与分层教学', '试卷分析与一对一培优补差', '国际课程（DSE / IGCSE / A-Level）入门衔接与同步巩固', '数学探究项目与竞赛指导'],
+      en: ['Bilingual lesson planning and courseware design', 'Learning-needs diagnosis and differentiated instruction', 'Exam-paper analysis and 1-on-1 remediation / enrichment', 'DSE / IGCSE / A-Level transition and synchronous consolidation', 'Guiding mathematical inquiry projects and competitions']
     }
   },
   tools: {
